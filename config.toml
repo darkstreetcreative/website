@@ -1,3 +1,34 @@
-baseURL = "http://darkstreetcreative.com/"
+# Site settings
+baseurl = "https://darkstreetcreative.com/"
 languageCode = "en-us"
-title = "Dark Street Creative"
+title = "Dark Street Creative - Photography"
+theme = "hugrid"
+# Enter your tracking code to enable Google Analytics
+# googleAnalytics = "UA-XXXXXXXX-Y"x
+
+contentdir = "content"
+datadir = "data"
+layoutdir = "layouts"
+publishdir = "public"
+
+[params]
+    # Meta
+    no_exif = false
+    title = "Dark Street Creative - Photography"
+    subtitle = "Some wonderful baseline"
+    author = "David Jairaj"
+    description = "Dark Street Creative - Photography Portfolio"
+    keywords = "David, Jairaj, David Jairaj, Dark Street Creative, Photography, Studio"
+
+    # Body background and  text color
+    bodybgcolor = "#dddddd"
+    bodytextcolor = "#ffffff"
+	
+	# Preview container button text
+    buttontext = "Get the theme"
+
+    # Footer text
+    footertext = "Made by [Codrops](http://tympanus.net/codrops/2013/03/19/thumbnail-grid-with-expanding-preview/), [Hugo](http://gohugo.io), [Pavel](https://themes.gohugo.io/hugrid/) and [me](https://chen-zhe.github.io)."
+
+	# add extra-css
+    # custom_css = ['css/extra1.css', 'css/extra2.css']
